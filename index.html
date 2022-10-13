@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de Background</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+    <script src="https://kit.fontawesome.com/e603deef4d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+       <div class="logo"> <i class="fa-regular fa-cubes"></i></div>
+       
+        <div class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#">Background</a>
+        <a href="#">Position</a>
+        <a href="#">FlexBox</a>
+       </div>
+       <div class="sociais">
+        <ul>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-github"></i></li>
+        </ul>
+       </div>
+
+    </header>
+    <div class="parallax">
+        <h1>Testando recursos</h1>
+        <button>Saiba mais</button>
+
+
+    </div>
+    <main>
+        <div class="fundos" id="f1"> 
+
+        </div>  
+        <div class="fundos" id="f2">
+
+        </div>  
+        <div class="fundos" id="f3">
+
+        </div>
+    
+    <div class="conteudo"> 
+        <h2>Positions  </h2>
+          <p>Uma posição define uma coordenada x/y, para colocar um item em relação às bordas da caixa de um elemento. Ele pode ser definido usando um a quatro valores. Se forem usados ​​dois valores que não sejam palavras-chave, o primeiro valor representa a posição horizontal e o segundo representa a posição vertical. Se apenas um valor for especificado, o segundo valor será considerado center. Se três ou quatro valores forem usados, os valores de porcentagem de comprimento serão deslocamentos para os valores de palavra-chave anteriores.
+
+            Sintaxe de 1 valor: o valor pode ser:
+            
+            <p>
+                O valor da palavra-chave center, que centraliza a imagem.
+                Um dos valores de palavra-chave top, left, bottom, right. Isso especifica uma borda na qual colocar o item. A outra dimensão é então definida para 50%, então o item é colocado no meio da borda especificada.
+                Um length> ou percentage>. Isso especifica a coordenada X relativa à borda esquerda, com a coordenada Y definida como 50%.
+                Sintaxe de 2 valores: um valor define X e o outro define Y. Cada valor pode ser
+           </p>
+            
+            <p>
+                Um dos valores de palavra-chave top, left, bottom, right. Se leftou rightsão fornecidos aqui, isso define X e o outro valor definido define Y. Se topou bottomsão fornecidos, isso define Y e o outro valor define X.
+                Um length> ou  percentage>. Se o outro valor for leftou right, esse valor definirá Y, em relação à borda superior. Se o outro valor for topou bottom, esse valor definirá X, em relação à borda esquerda. Se ambos os valores forem length> ou percentage>valores, o primeiro definirá X e o segundo Y.
+                Observe que: Se um valor for topou bottom, o outro valor poderá não ser topou bottom. Se um valor for leftou right, o outro valor poderá não ser leftou right. Isso significa, por exemplo, que top tope left rightnão são válidos.
+                Ordem: ao emparelhar palavras-chave, o posicionamento não é importante, pois o navegador pode reordená-lo, o valor top leftou left topproduzirá o mesmo resultado. Com o emparelhamento length> ou  percentage>com uma palavra-chave o posicionamento é importante, o valor que define X deve vir primeiro seguido por Y, o valor right 20pxnão é o mesmo que 20px righto primeiro é válido, mas o último é inválido. O valor left 20%ou 20% bottomé válido, pois os valores X e Y estão claramente definidos e o posicionamento está correto.
+                O valor padrão é left topou 0% 0%.
+                Sintaxe de 3 valores: dois valores são valores de palavra-chave e o terceiro é o deslocamento do valor anterior:
+                
+            </p>
+            <p>
+                O primeiro valor é um dos valores de palavra-chave top, left, bottom, rightou center. Se leftou rightforem fornecidos aqui, isso definirá X. Se topou bottomforem fornecidos, isso definirá Y e o outro valor da palavra-chave definirá X.
+                O valor  length> ou percentage>, se for o segundo valor, é o deslocamento do primeiro valor. Se for o terceiro valor, é o deslocamento para o segundo valor.
+                O comprimento único ou valor percentual é um deslocamento para o valor da palavra-chave que o precede. A combinação de uma palavra-chave com dois length ou percentage valores não é válida.
+                Sintaxe de 4 valores: o primeiro e o terceiro valores são valores de palavra-chave que definem X e Y. O segundo e quarto valores são deslocamentos para os valores de palavra-chave X e Y anteriores:
+                
+            </p>
+            <p>
+                O primeiro valor e o terceiro valor um dos valores da palavra-chave top, left, bottom, right. Se leftou rightforem fornecidos aqui, isso definirá X. Se topou bottomforem fornecidos, isso definirá Y e o outro valor da palavra-chave definirá X.
+                O segundo e quarto valores são  length> ou  percentage>valores. O segundo valor é o deslocamento da primeira palavra-chave. O quarto valor é o deslocamento para a segunda palavra-chave.</p>
+            </p>
+        </div>
+    </main>
+    <div class="titulo">
+         <h3>Começando a Manipulação do FlexBox</h3> 
+    </div>
+    
+    <div class="container">
+        <div class="blocos"></div>
+        <div class="blocos"></div>
+        <div class="blocos"></div>
+        <div class="blocos"></div>
+        <div class="blocos"></div>
+        <div class="blocos"></div>
+    
+    </div>
+   <div id="todo">
+
+    <div id="containerb">
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+    
+    </div>
+   
+    <div id="containerb">
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+    
+    </div>
+    <div id="containerb">
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+        <div class="blocos" id="dois"></div>
+    
+    </div>
+
+    </div>
+    <footer>
+    <p>Manipulando Flexbox, Tentei usar o maximo de recursos possiveis </p>
+</footer>
+</body>
+</html>

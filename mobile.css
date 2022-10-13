@@ -1,0 +1,30 @@
+header>div.logo{
+    display: none;
+    
+}
+a{
+    font-size: 70%;
+    margin-left: 10px;
+    justify-content: flex-start;
+}
+i{
+    font-size: 70%;
+}
+div.sociais>ul{
+    column-gap: 10px;
+}
+
+.parallax>h1{
+    font-size: 50%;
+    padding-bottom: 30px;
+}
+h3{
+    font-size: 100%;
+}
+div.container{
+    display: flex;
+    size: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    columns: 1;
+}
